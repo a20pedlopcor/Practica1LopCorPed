@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <TextView
         android:id="@+id/titol"
         android:layout_width="match_parent"
@@ -15,7 +14,6 @@
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:textColor="@color/purple_200"
         android:textStyle="bold" />
-
     <TextView
         android:id="@+id/subtitul"
         android:layout_width="match_parent"
@@ -25,7 +23,6 @@
         android:padding="@dimen/padding_regular"
         android:text="@string/subtitol"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
-
     <TextView
         android:id="@+id/article"
         android:layout_width="match_parent"
@@ -37,5 +34,4 @@
         android:lineSpacingExtra="5sp"
         android:padding="@dimen/padding_regular"
         android:text="@string/article" />
-
 </RelativeLayout>
