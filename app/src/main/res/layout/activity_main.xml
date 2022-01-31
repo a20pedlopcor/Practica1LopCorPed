@@ -23,15 +23,19 @@
         android:padding="@dimen/padding_regular"
         android:text="@string/subtitol"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
-    <TextView
-        android:id="@+id/article"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/subtitul">
+        <TextView
+            android:id="@+id/article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-        android:layout_below="@id/subtitul"
-        android:autoLink="web"
+            android:autoLink="web"
 
-        android:lineSpacingExtra="5sp"
-        android:padding="@dimen/padding_regular"
-        android:text="@string/article" />
+            android:lineSpacingExtra="5sp"
+            android:padding="@dimen/padding_regular"
+            android:text="@string/article" />
+    </ScrollView>
 </RelativeLayout>
